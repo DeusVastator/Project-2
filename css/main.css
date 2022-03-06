@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css?family=Acme|Hind+Siliguri');
+
+p {
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+h1, h2 , a {
+    font-family: 'Acme', sans-serif;
+}
+
+/* Main width */
+.main {
+    width: 1280px;
+    margin: auto;
+}
+
+/*logo and banner */
+
+.hero-banner {
+    background-image: url(../images/home-banner.png);
+    width: 100%;
+    height: 421px;
+    display: flex;
+}
+
+/* Navigation */
+.nav {
+    background: rgb(0, 0, 0, 0.8);
+    text-align: center;
+    align-self: flex-end;
+    width: 100%;
+}
+
+.nav ul li {
+    list-style: none;
+    display: inline;
+    padding: 0 90px 0 90px;
+    width: 100%;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2D5DC9;
+}
+
+/* Home body */
+
+.info {
+    margin: 40px;
+    width: 100%;
+}
+
+.bully {
+    width: 100%;
+    height: 100%;
+}
+
+.bully-image {
+    float: left;
+}
+
+.bully-text {
+    width: 45%;
+    float: right;
+    height: 346px;
+    font-size: 24px;
+    margin-right: 80px;
+}
+
+.bully-text h1 {
+    text-align: center;
+    color: #3D3D3D;
+    font-size: 36px;
+}
+
+span {
+    color: #2D5DC9;
+}
+
+
+.help-image {
+    width:520px;
+    float: left;
+    margin-top: 40px;
+}
+
+.help-text {
+    width: 45%;
+    float: right;
+    margin-top: 40px;
+    font-size: 24px;
+    margin-right: 80px;
+}
+
+.help-text h1 {
+    color: #3D3D3D;
+    text-align: center;
+    font-size 36px;
+}
+
+.antibullying {
+    float: left;
+    margin-top: 50px;
+    text-align: center;
+    position: relative;
+}
+
+.antibullying img {
+    width: 75%;
+}
+
+.antibullying h1 {
+    color: #2D5DC9;
+    font-size: 36px;
+}
+
+.antibullying p {
+    color: white;
+    text-align: left;
+    font-size: 24px;
+}
+
+.anti-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(0, 0, 0, 0.8);
+    padding: 20px;
+    width: 700px
+}
+
+.mission {
+    text-align: left;
+    position: relative;
+    float:left;
+    padding-top: 50px;
+}
+
+.mission img {
+    width: 100%;
+}
+
+.mission-text {
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    transform: translate(-65%, -50%);
+    width: 900px;
+    background: rgb(0, 0, 0, 0.8);
+    padding: 20px;
+}
+
+.mission-text h1 {
+    color:#2D5DC9;
+    font-size: 36px;
+    text-align: center;
+}
+
+.mission-text p {
+    color: white;
+    font-size: 24px;
+}
+
+/* footer */
+
+footer {
+    width: 100%;
+    height: 150px;
+    background: #3D3D3D;
+    float:left;
+}
+
+.footer-nav ul li{
+    list-style: none;
+    display: inline;
+    padding:0 90px 0 90px;
+    width: 100%;
+}
+
+.footer-nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-nav a:hover {
+    color: #2D5DC9;
+}
+
+.copyright {
+    text-align: center;
+    color: white;
+    width:350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
+
+.facebook img {
+    width: 50px;
+    float: right;
+    height: 50px;
+    margin-top: 40px;
+    margin-right: 10px;
+}
+
+/* About Us page */
+
+.about {
+    width: 90%;
+    margin: auto;
+}
+
+.about-text {
+    width: 600px;
+    float: left;
+    font-size: 18px;
+    text-indent: 50px;
+}
+
+.about-text h1 {
+    color: #2D5DC9;
+    text-align: center;
+    font-size: 36px;
+}
+
+.about-img {
+    float: right;
+    margin-top: 30px;
+}
+
+.about-img h2 {
+    text-align: center;
+}
